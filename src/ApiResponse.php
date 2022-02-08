@@ -1,8 +1,8 @@
 <?php
 
-namespace Ignite\RestAPI;
+namespace IgniteCareers\RestAPI;
 
-use Ignite\RestAPI\Exceptions\ApiException;
+use IgniteCareers\RestAPI\Exceptions\ApiException;
 
 class ApiResponse
 {

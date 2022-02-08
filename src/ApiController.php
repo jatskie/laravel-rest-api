@@ -1,15 +1,15 @@
 <?php
 
-namespace Ignite\RestAPI;
+namespace IgniteCareers\RestAPI;
 
-use Ignite\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
-use Ignite\RestAPI\Exceptions\ResourceNotFoundException;
-use Ignite\RestAPI\Tests\Models\DummyUser;
+use IgniteCareers\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use IgniteCareers\RestAPI\Exceptions\ResourceNotFoundException;
+use IgniteCareers\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Ignite\RestAPI\ExtendedRelations\BelongsToMany;
+use IgniteCareers\RestAPI\ExtendedRelations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\Relation;

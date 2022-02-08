@@ -1,8 +1,8 @@
 <?php
-namespace Ignite\RestAPI\Exceptions\Parse;
+namespace IgniteCareers\RestAPI\Exceptions\Parse;
 
-use Ignite\RestAPI\Exceptions\ApiException;
-use Ignite\RestAPI\Exceptions\ErrorCodes;
+use IgniteCareers\RestAPI\Exceptions\ApiException;
+use IgniteCareers\RestAPI\Exceptions\ErrorCodes;
 
 class NotAllowedToFilterOnThisFieldException extends ApiException
 {

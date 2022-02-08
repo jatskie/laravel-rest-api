@@ -1,8 +1,8 @@
 <?php
 
-namespace Ignite\RestAPI\Facades;
+namespace IgniteCareers\RestAPI\Facades;
 
-use Ignite\RestAPI\Routing\ApiRouter;
+use IgniteCareers\RestAPI\Routing\ApiRouter;
 use Illuminate\Support\Facades\Facade;
 
 class ApiRoute extends Facade

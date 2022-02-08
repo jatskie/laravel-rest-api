@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\RestAPI\Routing;
+namespace IgniteCareers\RestAPI\Routing;
 
 use Illuminate\Routing\ResourceRegistrar;
 use Illuminate\Support\Str;

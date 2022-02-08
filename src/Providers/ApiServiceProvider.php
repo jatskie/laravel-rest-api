@@ -1,10 +1,10 @@
 <?php
 
-namespace Ignite\RestAPI\Providers;
+namespace IgniteCareers\RestAPI\Providers;
 
-use Ignite\RestAPI\Handlers\ApiExceptionHandler;
-use Ignite\RestAPI\Routing\ApiResourceRegistrar;
-use Ignite\RestAPI\Routing\ApiRouter;
+use IgniteCareers\RestAPI\Handlers\ApiExceptionHandler;
+use IgniteCareers\RestAPI\Routing\ApiResourceRegistrar;
+use IgniteCareers\RestAPI\Routing\ApiRouter;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Routing\RouteCollection;

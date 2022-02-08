@@ -1,13 +1,13 @@
 <?php
 
-namespace Ignite\RestAPI\Handlers;
+namespace IgniteCareers\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Ignite\RestAPI\ApiResponse;
-use Ignite\RestAPI\Exceptions\ApiException;
-use Ignite\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Ignite\RestAPI\Exceptions\UnauthorizedException;
-use Ignite\RestAPI\Exceptions\ValidationException;
+use IgniteCareers\RestAPI\ApiResponse;
+use IgniteCareers\RestAPI\Exceptions\ApiException;
+use IgniteCareers\RestAPI\Exceptions\Parse\UnknownFieldException;
+use IgniteCareers\RestAPI\Exceptions\UnauthorizedException;
+use IgniteCareers\RestAPI\Exceptions\ValidationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Exceptions\HttpResponseException;

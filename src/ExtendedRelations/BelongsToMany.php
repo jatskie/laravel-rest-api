@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\RestAPI\ExtendedRelations;
+namespace IgniteCareers\RestAPI\ExtendedRelations;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as LaravelBelongsToMany;
 
 class BelongsToMany extends LaravelBelongsToMany

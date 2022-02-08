@@ -1,10 +1,10 @@
-<?php namespace Ignite\RestAPI;
+<?php namespace IgniteCareers\RestAPI;
 
 use Carbon\Carbon;
 use Closure;
 use DateTimeInterface;
-use Ignite\RestAPI\Exceptions\RelatedResourceNotFoundException;
-use Ignite\RestAPI\Exceptions\ResourceNotFoundException;
+use IgniteCareers\RestAPI\Exceptions\RelatedResourceNotFoundException;
+use IgniteCareers\RestAPI\Exceptions\ResourceNotFoundException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

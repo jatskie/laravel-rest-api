@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\RestAPI\Exceptions;
+namespace IgniteCareers\RestAPI\Exceptions;
 
 class ResourceNotFoundException extends ApiException
 {

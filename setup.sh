@@ -21,8 +21,8 @@ if [ ! -f "laravel/composer.json" ] ; then
 
     php -r "
         \$arr = json_decode(file_get_contents(\"composer.json\"), true);
-        \$arr[\"autoload\"][\"psr-4\"][\"Ignite\\\\RestAPI\\\\\"] = \"laravel-rest-api/src\";
-        \$arr[\"autoload\"][\"psr-4\"][\"Ignite\\\\RestAPI\\\\Tests\\\\\"] = \"laravel-rest-api/tests\";
+        \$arr[\"autoload\"][\"psr-4\"][\"IgniteCareers\\\\RestAPI\\\\\"] = \"laravel-rest-api/src\";
+        \$arr[\"autoload\"][\"psr-4\"][\"IgniteCareers\\\\RestAPI\\\\Tests\\\\\"] = \"laravel-rest-api/tests\";
         file_put_contents(\"composer.json\", json_encode(\$arr));
     "
 else

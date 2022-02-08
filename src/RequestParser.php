@@ -1,12 +1,12 @@
 <?php
 
-namespace Ignite\RestAPI;
+namespace IgniteCareers\RestAPI;
 
-use Ignite\RestAPI\Exceptions\Parse\InvalidLimitException;
-use Ignite\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
-use Ignite\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
-use Ignite\RestAPI\Exceptions\Parse\MaxLimitException;
-use Ignite\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use IgniteCareers\RestAPI\Exceptions\Parse\InvalidLimitException;
+use IgniteCareers\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
+use IgniteCareers\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
+use IgniteCareers\RestAPI\Exceptions\Parse\MaxLimitException;
+use IgniteCareers\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

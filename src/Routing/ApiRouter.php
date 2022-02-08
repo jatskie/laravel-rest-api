@@ -1,10 +1,10 @@
 <?php
 
-namespace Ignite\RestAPI\Routing;
+namespace IgniteCareers\RestAPI\Routing;
 
 use Closure;
-use Ignite\RestAPI\Exceptions\ApiException;
-use Ignite\RestAPI\Middleware\ApiMiddleware;
+use IgniteCareers\RestAPI\Exceptions\ApiException;
+use IgniteCareers\RestAPI\Middleware\ApiMiddleware;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Routing\ResourceRegistrar;
@@ -25,8 +25,8 @@ class ApiRouter extends Router
      */
     public function resource($name, $controller, array $options = [])
     {
-        if ($this->container && $this->container->bound('Ignite\RestAPI\Routing\ApiResourceRegistrar')) {
-            $registrar = $this->container->make('Ignite\RestAPI\Routing\ApiResourceRegistrar');
+        if ($this->container && $this->container->bound('IgniteCareers\RestAPI\Routing\ApiResourceRegistrar')) {
+            $registrar = $this->container->make('IgniteCareers\RestAPI\Routing\ApiResourceRegistrar');
         }
         else {
             $registrar = new ResourceRegistrar($this);
@@ -94,7 +94,7 @@ class ApiRouter extends Router
             $routes->add($route);
 
             // Options route
-            $route = $this->createRoute(['OPTIONS'], $uri, ['uses' => '\Ignite\RestAPI\Routing\ApiRouter@returnRoute']);
+            $route = $this->createRoute(['OPTIONS'], $uri, ['uses' => '\IgniteCareers\RestAPI\Routing\ApiRouter@returnRoute']);
 
             $route->middleware(ApiMiddleware::class);
 

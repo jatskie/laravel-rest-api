@@ -1,10 +1,10 @@
 <?php
 
-namespace Ignite\RestAPI\Middleware;
+namespace IgniteCareers\RestAPI\Middleware;
 
 use Closure;
-use Ignite\RestAPI\ApiResponse;
-use Ignite\RestAPI\Exceptions\UnauthorizedException;
+use IgniteCareers\RestAPI\ApiResponse;
+use IgniteCareers\RestAPI\Exceptions\UnauthorizedException;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
