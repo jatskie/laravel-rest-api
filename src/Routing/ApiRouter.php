@@ -92,22 +92,6 @@ class ApiRouter extends Router
             }
 
             $routes->add($route);
-
-            // Options route
-            $route = $this->createRoute(['OPTIONS'], $uri, ['uses' => '\IgniteCareers\RestAPI\Routing\ApiRouter@returnRoute']);
-
-            $route->middleware(ApiMiddleware::class);
-
-            if ($version !== null) {
-                $route->prefix($version);
-                $route->name("." . $version);
-            }
-
-            if (!empty($prefix)) {
-                $route->prefix($prefix);
-            }
-
-            $routes->add($route);
         }
 
         app("router")->setRoutes($routes);
